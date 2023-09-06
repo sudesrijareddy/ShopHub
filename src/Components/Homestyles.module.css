@@ -1,0 +1,157 @@
+.main1{
+  background-color: #E4D0D0;
+  padding-bottom: 60px;
+  margin: 0;
+  padding-top: 4rem;
+}
+.main2{
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: #F8FBF8;
+}
+.submain{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.heading1{
+  font-family: 'Abril Fatface', cursive;
+  color: #76A787;
+  padding-bottom: 25px;
+}
+.imgslide{
+  height: auto;
+  max-height: 93vh;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.likeicon{
+  font-size: 27px;
+}
+
+.btncontainer .cartbtn{
+  height: 42px;
+  padding: 5px 12px;
+  font-size: 18px;
+  text-align: center;
+}
+.womenslide{
+  position: absolute;
+  top: 300px;
+}
+.womenslide h3{
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+  color: #445069
+}
+.womenslide p{
+  font-size: 25px;
+  color: #445069
+}
+.womenslide button{
+  height: 47px;
+  padding: 5px 20px;
+  font-size: 20px;
+  color: lightslategrey;
+  background-color: transparent;
+  border: 2px solid #445069;
+  outline: none;
+  border-radius: 10px;
+}
+.womenslide button:hover{
+  background-color: lightslategrey;
+  border: none;
+  outline: none;
+  color: white;
+}
+.womenslide button:active{
+  background-color: white;
+  border: none;
+  outline: none;
+  color: #445069;
+}
+.menslide{
+  position: absolute;
+  top: 200px;
+}
+.menslide h3{
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+}
+.menslide p{
+  font-size: 20px;
+}
+.menslide button{
+  height: 47px;
+  padding: 5px 20px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: aliceblue;
+  outline: none;
+  border-radius: 10px;
+}
+.menslide button:hover{
+  background-color: #F8FBF8;
+  border: none;
+  outline: none;
+  color: #445069;
+}
+.menslide button:active{
+  background-color: lightslategrey;
+  color: white;
+  border: none;
+  outline: none;
+}
+.electronicslide{
+  position: absolute;
+  top: 150px;
+}
+.electronicslide h3{
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+  color: #76A787;
+}
+.electronicslide p{
+  font-size: 20px;
+  color: #76A787;
+}
+.electronicslide button{
+  height: 47px;
+  padding: 5px 20px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid #76A787;
+  color: #76A787;
+  outline: none;
+  border-radius: 10px;
+}
+.electronicslide button:hover{
+  background-color: #76A787;
+  color: white;
+  border: none;
+  outline: none;
+}
+.electronicslide button:active{
+  background-color: #F8FBF8;
+  color: #76A787;
+  border: none;
+  outline: none;
+}
+/* styles for cols of about row*/
+.about{
+  text-align: center;
+  padding: 12px;
+  border-radius: 10px;
+}
+.aboutrow{
+  margin-top: 40px;
+}
+.abouticons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

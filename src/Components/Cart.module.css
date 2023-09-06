@@ -1,0 +1,101 @@
+.main{
+    background-color: #F8FBF8;
+    min-height: 100vh;
+    margin: 0;
+   padding-top: 4rem;
+   padding-bottom: 4rem;
+}
+.heading1{
+    font-family: 'Abril Fatface', cursive;
+    color: #76A787;
+    padding-top: 30px;
+    padding-bottom: 45px;
+  }
+  .productprice{
+    letter-spacing: 1px;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    color: lightslategray;
+  }
+  .cartlist{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 1px #E5E4E2	;
+  }
+.cartitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.cartitem img{
+    height: 200px;
+    width: 200px;
+}
+.cartitem h5{
+    height: 150px;
+    width: 250px;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    color: lightslategray;
+    font-family: 'Acme', sans-serif;
+}
+.btns{
+    background-color: transparent;
+    color: #E48586;
+    font-size: 30px;
+    border: none;
+}
+.carticons{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.carticons span{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: lightslategray;
+    font-family: 'Acme', sans-serif;
+}
+.carttotal{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.carttotal p{
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    color: lightslategray;
+}
+.carttotal button{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #445069;
+    outline: none;
+    font-size: 20px;
+    color: lightslategray;
+    padding: 12px 20px;
+}
+.carttotal button:hover{
+    background-color: #445069;
+    color: white;
+    border: none;
+    outline: none;
+}
+.carttotal button:active{
+    background-color: whitesmoke;
+    color: #445069;
+    border: none;
+    outline: none;
+}
+.emptywishlist{
+    padding-top: 170px;
+}
+.emptywishlist h5{
+    font-size: 35px;
+    color: #445069;
+}

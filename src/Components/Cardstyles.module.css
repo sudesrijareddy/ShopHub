@@ -1,0 +1,60 @@
+.producttitle{
+    white-space: nowrap;      
+    overflow: hidden;         /* Hides overflowing content */
+    text-overflow: ellipsis;  /* Shows ellipsis (...) for truncated content */
+    max-width: 100%; 
+    padding-top: 15px;
+    font-family: 'Acme', sans-serif; 
+  }
+  .productprice{
+    letter-spacing: 1px;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+  }
+  .producttitle:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+  }
+  .producttitle:visited{
+    color: black;
+  }
+  .productcard{
+    padding: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px 1px #E5E4E2	;
+    border-radius: 10px;
+  }
+  .productimg{
+      height: 200px;
+      max-width: 100%;
+  }
+  .icons{
+      display: flex;
+      justify-content: space-between;
+  }
+  .likeicon{
+    font-size: 27px;
+  }
+  .btncontainer .cartbtn{
+    height: 42px;
+    padding: 5px 12px;
+    font-size: 18px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #E48586; 
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .btncontainer .cartbtn:hover{
+    background-color: #E48586;
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+  }
+  .btncontainer .cartbtn:active  {
+    background-color: #EF6262;
+    color: #fff;
+  }

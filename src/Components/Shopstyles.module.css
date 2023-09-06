@@ -1,0 +1,104 @@
+.main1{
+    background-color: #F8FBF8;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    margin: 0;
+    padding-top: 5rem;
+  }
+  .main2{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+  }
+.image1{
+    height: 400px;
+    max-width: 100%;
+}
+.product{
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 10px 1px #E5E4E2	;
+  background-color: white;
+  padding: 10px;
+}
+.productcard{
+    display: flex;
+}
+.spinnericon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 250px;
+}
+.spinner{
+  height: 50px;
+  width: 50px;
+  font-size: 22px;
+}
+
+  /*related products*/
+  .heading1{
+  font-family: 'Abril Fatface', cursive;
+  color: #76A787;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  }
+  .productheading{
+    font-family: 'Abril Fatface', cursive;
+    color: #76A787;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .producttitle{
+    font-family: 'Abril Fatface', cursive;
+  }
+  .description{
+    line-height: 1.6;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .productdata{
+    display: flex;
+    align-items: center;
+    padding:15px;
+  }
+  .quantity{
+    padding-top: 5px;
+  }
+  .productratings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cartbtn{
+    padding: 5px 12px;
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #E48586; 
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  .cartbtn:hover{
+    background-color: #E48586;
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+  }
+  .cartbtn:active  {
+    background-color: #EF6262;
+    color: #fff;
+  }
+  .detailicons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+  }

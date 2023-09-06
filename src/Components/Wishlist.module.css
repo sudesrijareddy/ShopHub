@@ -1,0 +1,20 @@
+.main{
+    background-color: #F8FBF8;
+    min-height: 100vh;
+    margin: 0;
+  padding-top: 4rem;
+}
+.heading1{
+    font-family: 'Abril Fatface', cursive;
+    color: #76A787;
+    padding-top: 30px;
+    padding-bottom: 45px;
+  }
+  .emptywishlist{
+    padding-top: 180px;
+  }
+  .emptywishlist h5{
+   font-size: 35px;
+   color: #445069;
+  }
+  

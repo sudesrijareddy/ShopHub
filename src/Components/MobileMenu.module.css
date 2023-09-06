@@ -1,0 +1,44 @@
+.mobileMenu {
+    background-color: #4E6E81;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .menuItem {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .dropdownToggle {
+    background-color: transparent !important;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .dropdownMenu {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+  
+  .dropdownToggle:hover + .dropdownMenu,
+  .dropdownMenu:hover {
+    display: flex;
+  }
+  
+  .dropdownMenu a {
+    text-decoration: none;
+    color: white;
+  }
+  
